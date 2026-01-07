@@ -67,7 +67,7 @@ const App: React.FC = () => {
                 e.stopPropagation();
                 addToCart(product);
               }}
-              className="bg-green-500 hover:bg-green-600 text-white font-medium py-1 px-3 rounded"
+              className="bg-green-500 hover:bg-green-600 text-white font-medium py-1 px-3 rounded hover:cursor"
             >
               Add to Cart
             </button>
